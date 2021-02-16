@@ -1,0 +1,199 @@
+@import url("httpfonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*the whole pages style  */
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  color: black;
+  overflow-x: hidden;
+}
+/* unvi selector to add to all tags in html that are with in the body */
+/* position of the background pic */
+.hero-container1 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  /*   flex box directs flex items are placed in the flex container */
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.unsplash.com/photo-1578922746465-3a80a228f223?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1482&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*  property sets whether a background image scrolls with the rest of the page fixed makes it not moove with the page  */
+  background-position: 50% 50%;
+  /*  used to change the postion of my image bc it was only showing the top of my pic  */
+}
+.hero-container2 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images.unsplash.com/photo-1560419656-c2fe828696af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+
+.navbar {
+  width: 100%;
+  /* This defines a fle.hero-container1 container; inline or block depending on the given value. It enables a flex context for all its direct children   */
+  display: flex;
+  justify-content: center;
+  /* made the bullet point go away   */
+  list-style-type: none;
+}
+.current {
+  color: blue;
+}
+
+/*style the nav bar  */
+.navbar a {
+  text-decoration: none;
+
+  font-size: 30px;
+}
+
+.not-current {
+  color: black;
+}
+
+/* put space inbetween my nav bar */
+.navbar li {
+  /* top right bottom left   */
+  padding: 20px 20px 20px 20px;
+}
+.navbar a:hover {
+  color: blue;
+}
+
+.hero-text {
+  text-shadow: 2px 2px white;
+  font-size: 80px;
+}
+/*position of the pg and style  */
+.whattoknow {
+  font-size: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  clear: both;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+.footer-logo i {
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 25px;
+  text-decoration: none;
+}
+.footer-email a {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 25px;
+}
+.footer-socialmedia i {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  
+}
+.footer-socialmedia a {
+  color: white;
+}
+.copyright {
+  color: white;
+}
+/* gif of the beach and the container allows me to style my gif for the browser */
+.GIFofthebeach {
+  width: 480px;
+}
+
+.GIFofthebeach-container {
+  /*   top and bottom right and left */
+  margin: 50px 0px;
+  /* float makes my gif go to the left of my home page and wrap aroung the text   */
+  float: left;
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.form-container label {
+  margin: 10px 0px;
+}
+.form-container input {
+  padding: 10px 10px;
+  width: 20%;
+}
+.input-button {
+  margin-top: 20px;
+}
+.linkto-text {
+  text-decoration: none;
+  color: green;
+  font-size: 15px;
+}
+.sculpture-pic {
+  float: right;
+  width: 600px;
+  margin: 20px;
+}
+/* to do page starts here */
+.activities-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.activities-row-one-container {
+  display: flex;
+  margin: 15px 0px;
+}
+.row-cube {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 25px;
+}
+.row-cube img {
+  height: 400px;
+  margin: 15px 0px;
+}
+.activities-row-two-container {
+  display: flex;
+  margin: 15px 0px;
+}
+.row-cube h1 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  padding: 15px 0px;
+}
+.row-cube ul {
+  list-style: none;
+}

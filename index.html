@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My Gateway Project</title>
+  <!--  rel= spec the relationship between the link doc and the related doc href= Directing the path type= lets the browers know what type of file it is  -->
+  <link rel='stylesheet' href='./styles/index.css' type='text/css'/>
+  <!--  links my html to the fontawesome  -->
+  <script src="https://kit.fontawesome.com/c2daef2cd3.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!--  the nav bar and links so all my pages will have a nav bar and links to each diff page  -->
+  <header>
+    <nav>
+
+      <ul class='navbar'>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href='todo.html' class="not-current">To Do</a></li>
+        <li><a href='contact.html' class="not-current">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <!--class- used as an identification for html target elements ,specifi   -->
+    <section class="hero-container1">
+      <h1 class="hero-text"> Domninican Republic </h1>
+    </section>
+  </div>
+  <div>
+    <!--    my text uner my hero and linked to my css so i can style it  -->
+    <p class='whattoknow'><strong>The Dominican Republic</strong> is known for its blue ocean waters, white-sand
+      beaches, and beautiful resorts. Dominican Republic is the second largest and most diverse Caribbean country and is
+      surrounded by the Atlantic Ocean on the north
+      and the Caribbean Sea on the south.</p>
+  </div>
+  <div>
+    <!--    put img in html and gave it a contanier and a name so i can style it in css and src= is the link and alt is what the browser will see if the photo doesnt load.  -->
+    <section class="GIFofthebeach-container">
+      <h1>
+        <img class='GIFofthebeach' src="https://media.giphy.com/media/26u47Pne2MhiyL3SU/giphy.gif"
+          alt="GIF of the beach." />
+      </h1>
+    </section>
+    <!--   my 2nd text for my home page and linked to my css file   -->
+    <p class="whattoknow">The Dominican people and their customs have European cultural origins consisting basis, with
+      both African and native Taíno influences. The Dominican Republic was the site of the first European settlement in
+      the New World, Santo Domingo, founded in
+      1493. Shortly after the arrival of the Europeans, African people were imported to the island to serve as slaves.
+      The fusion of European, African and Taíno traditions and customs contributed to the development of present-day
+      Dominican culture.</p>
+  </div>
+  <div>
+    <img class="sculpture-pic"
+      src="https://images.unsplash.com/photo-1559054554-dae1268e32cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80"
+      alt="Sculpture" />
+    <p class="whattoknow">The Dominican Republic has a very diverse culture which has created a wide variety of unique
+      traditions. These traditions have historical and culture significance specific to the country and are highly
+      celebrated by the inhabitants. Such as dancing,
+      food, sports, and festivals.
+    </p>
+  </div>
+
+
+    <div>
+      <!--   footer that is on all on my pages and classes are given so i can style in css   -->
+      <footer class="footer">
+        <div class="footer-logo">
+          <i class="fas fa-umbrella-beach"></i>
+
+        </div>
+        <!-- target="blank" is so the link will open in another page 
+       the class= is the link/ how it talks to the website that i got the little logos from-->
+        <div class="footer-email">
+          <a href="DominicanRepublic@gmail.com" target="blank">Email Us</a>
+        </div>
+        <div class='footer-socialmedia'>
+          <a aria-label="Twitter" href='https://twitter.com/' target="blank"><i class="fab fa-twitter-square"></i></a>
+          <a aria-label="Instagram" href="https://www.instagram.com/?hl=en" target="blank"><i
+              class="fab fa-instagram-square"></i></a>
+          <a aria-label="Facebook" href='https://www.facebook.com/' target="blank"><i
+              class="fab fa-facebook-square"></i></a>
+        </div>
+        <div>
+          <p class="copyright">&copy; 2020</p>
+        </div>
+      </footer>
+    </div>
+</body>
+
+</html>
